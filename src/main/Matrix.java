@@ -1,4 +1,4 @@
-package javaTest;
+package main;
 
 import lombok.Getter;
 

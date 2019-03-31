@@ -1,8 +1,6 @@
-package javaTest;
+package main;
 
-import org.jboss.arquillian.container.test.api.BeforeDeployment;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package javaTest;
+package main;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
