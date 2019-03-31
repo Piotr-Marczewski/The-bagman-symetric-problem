@@ -1,5 +1,7 @@
 package javaTest;
 
+import org.jboss.arquillian.container.test.api.BeforeDeployment;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -14,8 +16,8 @@ public class MatrixTest {
     private List<City> listOfCity;
     private Matrix matrix;
 
-    @BeforeClass
-    void initMatrix() {
+    @Before
+    public void initMatrix() {
         listOfCity = new ArrayList<>();
         for (int row = 0; row < 2; row++) {
             for (int col = 0; col < 2; col++) {
