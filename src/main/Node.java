@@ -4,12 +4,13 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 @Getter
 @ToString
 @Setter
-public class Node implements Comparable<Node> {
+public class Node implements Comparable<Node>{
     private int indexCity;
     private Node parent;
     private double valueOfHeuristic;
@@ -20,7 +21,7 @@ public class Node implements Comparable<Node> {
 
     public Node(Node parent, double cost, int indexCity) {
 
-        if(numbersOfNodes == 0){
+        if(parent == null){
             this.parent = null;
             this.cost = 0.0;
             way = new ArrayList<>();
@@ -41,7 +42,7 @@ public class Node implements Comparable<Node> {
 
     public Node(Node parent, double cost, int indexCity, double valueOfHeuristic) {
 
-        if(numbersOfNodes == 0){
+        if(parent == null){
             this.parent = null;
             this.cost = 0.0;
             way = new ArrayList<>();

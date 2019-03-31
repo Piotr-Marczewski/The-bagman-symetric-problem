@@ -5,7 +5,7 @@ import lombok.Getter;
 import java.util.*;
 
 @Getter
-public class BrutalForceMethod extends TheBagmanSolution {
+public class BrutalForceMethod extends TheBagmanSolution{
 
     private List<Node> nodes;
     private List<Integer> listOfHowManyNodesIsOnEveryFloorOfTree;
@@ -13,7 +13,7 @@ public class BrutalForceMethod extends TheBagmanSolution {
     public BrutalForceMethod(List<City> list, int selectedCityOnRoot) {
         super(list, selectedCityOnRoot);
         nodes = new ArrayList<>();
-        generateListOfHowManyNodesIsOnEveryFloorOfTree(listOfCity.size());
+        generateListOfHowManyNodesIsOnEveryFloorOfTree(listOfCities.size());
         createTree();
         addFinalNodes();
         stopTime = System.currentTimeMillis();
@@ -42,7 +42,7 @@ public class BrutalForceMethod extends TheBagmanSolution {
                 if (nodes.isEmpty()) {
                     nodes.add(new Node(null, 0.0, selectedCityOnStart));
                 } else {
-                    Set<Integer> temporarySet = generateSetForAllIndexesOfCities(listOfCity);
+                    Set<Integer> temporarySet = generateSetForAllIndexesOfCities(listOfCities);
                     // przechodzenie po węzłach w grupie
                     for (int nodesInOneGroup = 0; nodesInOneGroup < getNumberOfNodesInGroup(numberOfGroup, levelOfTree); nodesInOneGroup++) {
                         //    System.out.println("levelOfTree " + levelOfTree + " numberOfGroup " + numberOfGroup + " nodesInOneGroup " + nodesInOneGroup);
@@ -50,7 +50,7 @@ public class BrutalForceMethod extends TheBagmanSolution {
                     }
                 }
             }
-            //System.out.println("Na poziomie " + levelOfTree + " istnieje " + nodes.size() + " węzłów");
+            System.out.println("Na poziomie " + levelOfTree + " istnieje " + nodes.size() + " węzłów");
             deleteUnnecessaryNodes(nodes, listOfHowManyNodesIsOnEveryFloorOfTree.get(levelOfTree));
             //System.out.println("Na poziomie " + levelOfTree + " istnieje " + nodes.size() + " węzłów");
             // showNodes();
@@ -115,13 +115,7 @@ public class BrutalForceMethod extends TheBagmanSolution {
         return -1;
     }
 
-    public static Set<Integer> generateSetForAllIndexesOfCities(List<City> listOfCities) {
-        Set<Integer> temporarySet = new HashSet<>();
-        for (int i = 0; i < listOfCities.size(); i++) {
-            temporarySet.add(i);
-        }
-        return temporarySet;
-    }
+
 
     private void deleteVisitedNodes(Set<Integer> set, Node parent) {
         //System.out.println(set + " " + parent);
