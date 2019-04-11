@@ -14,8 +14,8 @@ public class City {
     private static Random rand = new Random();
 
     public City() {
-        x = rand.nextInt(100) + 1;
-        y = rand.nextInt(100) + 1;
+        x = rand.nextInt(10) + 1;
+        y = rand.nextInt(10) + 1;
     }
 
     public City( int x, int y){

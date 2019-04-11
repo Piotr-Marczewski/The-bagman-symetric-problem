@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96685981-206d-44c9-83a1-627be5cb83ab" name="Default Changelist" comment="" />
+    <list default="true" id="96685981-206d-44c9-83a1-627be5cb83ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/Astar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/Astar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/AstarComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/BrutalForceMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/BrutalForceMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/TheBagmanSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/The-bagman-symetric-problem/main/TheBagmanSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Astar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Astar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AstarComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BrutalForceMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BrutalForceMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/NearestNeightboursMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/NearestNeightboursMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TheBagmanSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TheBagmanSolution.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="88">
               <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#initNearestNeightboursMethod#0;class#Main#0" />
                 <element signature="method#initBrutalForceMethod#0;class#Main#0" />
-                <element signature="method#initAstarMethod#0;class#Main#0" />
               </folding>
             </state>
           </provider>
@@ -32,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Astar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1688">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="1056">
+              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +57,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AstarComparator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/TheBagmanSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="704">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,12 +83,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="88">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1574#1575#0" expanded="true" />
-                <element signature="e#1646#1647#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/City.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/NearestNeightboursMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="52" />
+            <state>
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/BrutalForceMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="335">
               <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,13 +155,14 @@
         <option value="$PROJECT_DIR$/src/javaTest/Matrix.java" />
         <option value="$PROJECT_DIR$/src/java/Matrix.java" />
         <option value="$PROJECT_DIR$/src/main/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/main/NearestNeightboursMethod.java" />
         <option value="$PROJECT_DIR$/src/main/AstarComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/Astar.java" />
+        <option value="$PROJECT_DIR$/src/main/TheBagmanInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/City.java" />
         <option value="$PROJECT_DIR$/src/main/Node.java" />
         <option value="$PROJECT_DIR$/src/main/TheBagmanSolution.java" />
-        <option value="$PROJECT_DIR$/src/main/TheBagmanInterface.java" />
         <option value="$PROJECT_DIR$/src/main/BrutalForceMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/Astar.java" />
+        <option value="$PROJECT_DIR$/src/main/NearestNeightboursMethod.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
@@ -146,46 +175,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1069" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="The-bagman-symetric-problem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The-bagman-symetric-problem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The-bagman-symetric-problem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The-bagman-symetric-problem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The-bagman-symetric-problem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The-bagman-symetric-problem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The-bagman-symetric-problem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The-bagman-symetric-problem" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -207,7 +206,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.testRunning" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -291,7 +290,12 @@
       <updated>1554020492615</updated>
       <workItem from="1554020496002" duration="427000" />
       <workItem from="1554020947832" duration="206000" />
-      <workItem from="1554029223078" duration="13297000" />
+      <workItem from="1554029223078" duration="13890000" />
+      <workItem from="1554328393851" duration="1518000" />
+      <workItem from="1554369791983" duration="21954000" />
+      <workItem from="1554791294906" duration="3855000" />
+      <workItem from="1554967350394" duration="203000" />
+      <workItem from="1554967576125" duration="1634000" />
     </task>
     <task id="LOCAL-00001" summary="Create class Test for class City">
       <created>1554030272827</created>
@@ -392,13 +396,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13930000" />
+    <option name="totallyTimeSpent" value="43687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -408,15 +412,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="743" y="301" width="482" height="121" id="Run" order="2" sideWeight="0.64832217" visible="true" weight="0.8477654" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3282123" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.35167786" side_tool="true" weight="0.21648045" />
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -447,13 +451,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created class AstarMethod" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java" />
     <entry file="file://$PROJECT_DIR$/The-bagman-symetric-problem.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -461,28 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -499,56 +475,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AstarComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/TheBagmanInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/AstarComparator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/TheBagmanSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="704">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TheBagmanSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="88">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/NearestNeightboursMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="52" />
+        <state relative-caret-position="66">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TheBagmanInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Astar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1688">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="176">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -557,8 +519,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/BrutalForceMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="335">
           <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Astar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/NearestNeightboursMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -567,13 +549,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="88">
           <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#initNearestNeightboursMethod#0;class#Main#0" />
             <element signature="method#initBrutalForceMethod#0;class#Main#0" />
-            <element signature="method#initAstarMethod#0;class#Main#0" />
           </folding>
         </state>
       </provider>

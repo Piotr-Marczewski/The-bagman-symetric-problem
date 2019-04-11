@@ -42,7 +42,7 @@ public class BrutalForceMethod extends TheBagmanSolution{
                 if (nodes.isEmpty()) {
                     nodes.add(new Node(null, 0.0, selectedCityOnStart));
                 } else {
-                    Set<Integer> temporarySet = generateSetForAllIndexesOfCities(listOfCities);
+                    Set<Integer> temporarySet = generateSetForAllIndexesOfCities();
                     // przechodzenie po węzłach w grupie
                     for (int nodesInOneGroup = 0; nodesInOneGroup < getNumberOfNodesInGroup(numberOfGroup, levelOfTree); nodesInOneGroup++) {
                         //    System.out.println("levelOfTree " + levelOfTree + " numberOfGroup " + numberOfGroup + " nodesInOneGroup " + nodesInOneGroup);

@@ -11,6 +11,7 @@ import java.util.*;
     private List<Integer> checkedList;
     private List<Double> costWay;
     private double fullCost = 0.0;
+    private Matrix matrix = super.matrix;
 
 
     public NearestNeightboursMethod(List<City> list, int selectedCityOnRoot) {
@@ -35,7 +36,9 @@ import java.util.*;
         int nrCity = tmpMap.get(value);
         while (checked.contains(nrCity)) {
             tmpMap.remove(value, nrCity);
-            value = tmpMap.firstKey();
+            if(tmpMap != null) {
+                value = tmpMap.firstKey();
+            }
             nrCity = tmpMap.get(value);
         }
         fullCost += value;
